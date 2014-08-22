@@ -1,0 +1,24 @@
+{
+    "name":        "hnw/github-pubkey",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name": "Yoshio HANAWA"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "hnw/single-subcommand-console": "*",
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hnw\\GithubPubkey\\": "src/"
+        }
+    },
+    "bin": ["github-pubkey"]
+}
